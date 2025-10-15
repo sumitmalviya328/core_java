@@ -7,7 +7,7 @@ public class Program4 {
         s = s.toUpperCase();
         for(int i=0;i<s.length();i++)
         {
-            System.out.print((int)s.charAt(i)-64);
+            System.out.print((int)s.charAt(i)-64); // 85121215
         }
     }
 }

@@ -21,7 +21,7 @@ public class Program5 {
             sum = sum + ch3; // sum = 26
         }
 
-        System.out.println(sum);
+        System.out.println(sum); // 26
 
     }
 }

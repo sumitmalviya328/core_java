@@ -7,7 +7,7 @@ public class Program2 {
 
         for(int i=0;i<s.length();i++)
         {
-            System.out.print((int)s.charAt(i));
+            System.out.print((int)s.charAt(i)); // 72101108108111
         }
     }
 }
