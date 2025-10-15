@@ -1,0 +1,56 @@
+String
+------
+1. String is a sequence of characters.
+2. String is also works on index basis, String index always starts from 0 and ends with size-1.
+3. In java, String is a pre-defined class.
+4. String class stored in java.lang package.
+5. There are 2 ways to create objects of String class.
+	|- by string literal (value)
+	|- by new keyword
+
+IQ. Difference b/w String literal and new Keyword
+
+6. Methods of String class
+Example-1. boolean equals() and ==
+Example-2. int length()
+Example-3: boolean isEmpty()
+Example-4: char charAt()
+Example-5: boolean equals() and boolean equalsIgnoreCase()
+Example-6: int compareTo() and int compareToIgnoreCase()
+Example-7: String substring()
+Example-8 and 9: String[] split()
+
+
+14-10-2025
+-----------
+Program-1: Print characters of a string in capital letters
+Input:  "Hello"
+Output:
+    H
+    E
+    L
+    L
+    O
+
+Program-2: Print the ASCII values of each character of a String.
+Input: "Hello"
+Output: 72101108108111
+
+Program-3: Convert the String into uppercase and then print the ASCII values
+of each character of a String.
+Input: "Hello"
+Output: 7269767679
+
+Hello  -> HELLO -> 7269767679
+
+Program-4: Print the alphabetical order number of each character of a String
+Input: "Hello"
+Output: 85121215
+
+Program-5: find the sum of difference between first and last character,
+second and second last character and so no
+Input: "Hello"
+Output: 26
+
+Explain:
+        [H-O]+[E-L]+[L] = [8-15]+[5-12]+[12] = [-7]+[-7]+[12] = 7+7+12 = 26
