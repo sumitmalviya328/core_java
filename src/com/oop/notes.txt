@@ -1,4 +1,4 @@
-Object oriented programming
+Object oriented programming (most imp )
 =================================
 1. java is a class based language.
 2. java class consist 5 element.
@@ -9,43 +9,81 @@ Object oriented programming
    5. Inner class (Nested class)
 
    Example :
-   class <class-name>
-   {
-   1. Variable
-   2. Methods
-   3. Blocks
-   4. Blocks
-   5. Inner class (Nested class)
+          class <class-name>
+        {
+          1. Variable
+          2. Methods
+          3. Constructor
+          4. Blocks
+          5. Inner class (Nested class)
 
-   }
+         }
 3. Variable
   a. Variable are used to store data/value.
 
   Example :
-  int rollno = 101;
-  whare 'rollno' is a variable thet stored 101 (data/value/constant)
+           int rollno = 101;
+           whare 'rollno' is a variable thet stored 101 (data/value/constant)
 
   b. there are three type of variable in java.
   * local variable
-    |- Local variable are define inside the M/C/B.
-    |- Calling of local variable depend on: When M/C/B call.
-    |- Memory Allocation : Stack
+     |- Local variable are define inside the Method/Constructor /Block.
+     |- Calling of local variable depend on: When Method/Constructor/Block call.
+     |- Memory Allocation : Stack
+
   * instance variable
-    |- Instance variable are define inside the class but outside the Methode/constructor/Blocks
-    |- Calling of instance variable depend on: object.
-    |- Memory Allocation : Heap
-    |-How many times memory will create : depend upon number of object, if we have tree object of a class then 3 time memory will create for single IV
+     |- Instance variable are define inside the class but outside the Methode/constructor/Blocks
+     |- Calling of instance variable depend on: object.
+     |- Memory Allocation : Heap
+     |-How many times memory will create : depend upon number of object, if we have tree object of a class then 3 time memory will create for single IV
+
   * static variable
-    |- Static variable are define inside the class but outside the Methode/constructor/Blocks with prefix 'static'.
-    |- Calling of static variable depend on: class.
-    |- Memory Allocation : Non-Heap
-    |-How many times memory will create : one time.
+     |- Static variable are define inside the class but outside the Methode/constructor/Blocks with prefix 'static'.
+     |- Calling of static variable depend on: class.
+     |- Memory Allocation : Non-Heap
+     |-How many times memory will create : one time.
 
   c.
   Example:
   Program1
 
 4. Methods
-a.
+   a. Methods are uses to write the logics of the program.
+   b. There are two type of methods
+      |- Instance Methods or non-static methods
+      |- Static Methods
+
+ Example :
+    program2
+
+Calling rule
+--------------
+1. Instance methods ---Directly---> Instance methods/variable
+2. static methods ---Object---> Instance methods/variable
+3. Instance methods ---Classname---> Static methods/variable
+4. Static methods ---Classname---> Static methods/variable
+
+Example
+Program3
+
+Q. How to create object of a class
+A. There are 4 ways
+   |-Named object
+   |-nameless object
+   |-Instance object
+   |-Static Factory object
+--------------------------------------
+        |- Named object
+        Syntax:
+              class-name obj-name = new constructor-name();
+        Example:
+              Program4 obj1 = new Program4();
+
+        |- Nameless object
+        Syntax:
+             new constructor-name();
+        Example:
+              new Program4();
+
 
 
